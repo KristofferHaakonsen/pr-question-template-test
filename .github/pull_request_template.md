@@ -16,7 +16,6 @@ Please answer the questions by inserting a numerical value (0-999) after the ":"
 6. \# ways to access/modify databases:
 7. \# dependencies:
 8. \# new classes/modules:
-10. - [ ] None of the above
 
 
 
