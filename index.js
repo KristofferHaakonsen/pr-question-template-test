@@ -10,8 +10,10 @@ class LoginControl extends React.Component {
     this.setState({isLoggedIn: true});
   }
 
-  handleLogoutClick() {
-    this.setState({isLoggedIn: false});
+
+  
+  handleQuestionnaireClick() {
+    this.setState({questionnaire: true})
   }
 
   render() {
@@ -26,7 +28,7 @@ class LoginControl extends React.Component {
     return (
       <div>
         <Greeting isLoggedIn={isLoggedIn} />
-        {button}
+        
       </div>
     );
   }
